@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBALQUILERVEHICULOSModelStoreContainer" CdmEntityContainer="DBALQUILERVEHICULOSEntities">
+    <EntitySetMapping Name="AlquilerVehiculos">
+      <EntityTypeMapping TypeName="DBALQUILERVEHICULOSModel.AlquilerVehiculos">
+        <MappingFragment StoreEntitySet="AlquilerVehiculos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LugarRecogida" ColumnName="LugarRecogida" />
+          <ScalarProperty Name="FechaRecogida" ColumnName="FechaRecogida" />
+          <ScalarProperty Name="LugarEntrega" ColumnName="LugarEntrega" />
+          <ScalarProperty Name="FechaEntrega" ColumnName="FechaEntrega" />
+          <ScalarProperty Name="IdVehiculo" ColumnName="IdVehiculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vehiculos">
+      <EntityTypeMapping TypeName="DBALQUILERVEHICULOSModel.Vehiculos">
+        <MappingFragment StoreEntitySet="Vehiculos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
